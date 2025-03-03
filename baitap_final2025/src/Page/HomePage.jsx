@@ -85,7 +85,7 @@ const Category = () => {
           src={image5}
           alt="anh1anh5"
           onClick={()=>navigate("/shop")}
-
+    
         />
       </div>
     </div>
@@ -141,7 +141,7 @@ const ListProduct = () => {
   return (
     <div style={{ margin: "0px auto", width: "1200px" }}>
       <p>MADE THE HARD WAY</p>
-      <p className="pb-2">TOP TRENDING PRODUCTS</p>
+      <p className="pb-2">TOP  PRODUCTS</p>
       <div className="flex flex-wrap">{displayList()}</div>
     </div>
   );
